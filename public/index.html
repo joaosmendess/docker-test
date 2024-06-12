@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Usuários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Usuários</h1>
+        <div class="form-container">
+            <input type="hidden" id="userId">
+            <input type="text" id="name" placeholder="Nome">
+            <input type="email" id="email" placeholder="Email">
+            <button id="saveBtn">Salvar</button>
+        </div>
+        <div class="list-container">
+            <h2>Lista de Usuários</h2>
+            <ul id="userList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
